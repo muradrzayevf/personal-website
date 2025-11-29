@@ -77,22 +77,6 @@ body{
     font-size: 18px;
     color: #000000;
 }
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #1a1a1a;
-    color: white;
-    margin-top: auto;
-}
-footer .social-icon{
-    width: 50px;
-    height: 50px;
-    color: white;
-}
-footer .social-icon2{
-    width: 50px;
-    height: 50px;
-}
 .about-section{
     max-width: 900px;
     margin: 40px auto;
@@ -174,12 +158,99 @@ footer .social-icon2{
 .project-card a:hover{
     color: red;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: auto;
+}
+footer .social-icon{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+footer .social-icon2{
+    width: 50px;
+    height: 50px;
+}
 @media (max-width: 768px) {
-    .project-section {
-        padding: 10px;
+
+   
+    body {
+        padding-top: 0px;
     }
 
-    .project-card > div {
+    
+    .navbar {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .navbar .logo {
+        font-size: 22px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero .profile-img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .hero .content {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .hero .content h1 {
+        font-size: 28px;
+    }
+
+    .hero .content p {
+        font-size: 16px;
+    }
+
+    .about-section {
+        padding: 25px;
+        max-width: 95%;
+    }
+
+    .about-title {
+        font-size: 26px;
+    }
+
+    .about-section h2 {
+        font-size: 20px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    .about-skills li {
+        font-size: 16px;
+    }
+
+    .project-section {
+        padding: 10px;
+        max-width: 95%;
+    }
+
+    .project-card div {
         padding: 20px;
     }
 
@@ -190,4 +261,23 @@ footer .social-icon2{
     .project-card p {
         font-size: 16px;
     }
+
+    .project-card a {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer .social-icon,
+    footer .social-icon2 {
+        width: 40px;
+        height: 40px;
+    }
+
 }
