@@ -164,15 +164,44 @@ footer {
     background-color: #1a1a1a;
     color: white;
     margin-top: auto;
+    
+}
+footer .social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 8px;
 }
 footer .social-icon{
-    width: 50px;
-    height: 50px;
-    color: white;
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1); /* Makes icons white */
+    transition: transform 0.3s ease, filter 0.3s ease;
+    
+}
+footer .social-icon:hover{
+    transform: scale(1.1);
+    filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(0deg); /* White with slight glow on hover */
 }
 footer .social-icon2{
-    width: 50px;
-    height: 50px;
+    width: 23px;
+    height: 23px;
+    filter: brightness(0) invert(1); /* Makes icons white */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+footer .social-icon2:hover{
+    transform: scale(1.1);
+    filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(0deg); /* White with slight glow on hover */
+}
+footer .repo-link{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+    margin-top: 7px;
+
+}
+footer .repo-link:hover{
+    color: red;
 }
 @media (max-width: 768px) {
 
