@@ -15,10 +15,9 @@ title: Home
     </p>
 
     <div class="badges">
-      <span class="badge">MERN Stack</span>
-      <span class="badge">Node.js</span>
-      <span class="badge">Express</span>
-      <span class="badge">MongoDB</span>
+      <span class="badge2">Node.js</span>
+      <span class="badge3">Express</span>
+      <span class="badge4">MongoDB</span>
       <span class="badge">Git & GitHub</span>
     </div>
 
