@@ -29,12 +29,6 @@ permalink: /about/
       Volunteered as an event coordinator, helping to organize student events,
       manage logistics, and support international and local participants.
     </li>
-    <li>
-      <strong>Database Administrator</strong> — Local Construction Company  
-      <br>
-      Currently working as a database administrator, managing data,
-      ensuring data accuracy, and supporting basic database operations.
-    </li>
   </ul>
 
   <h2>Qualifications</h2>

@@ -27,9 +27,8 @@ permalink: /projects/
 <img src="/assets/img/blog-photo.png" alt="" width = "400">
 <p>Backend part of a blog website. (Repo link will be added.)</p>
 
+<p><strong>Tech/Concepts:</strong> Node.js, Express, REST API, MongoDB</p>
 <p>
   <strong>View Repository:</strong>
   <a href="https://github.com/muradrzayevf/blog-website" target="_blank" rel="noopener">View project Repo →</a>
 </p>
-
-<p><strong>Tech/Concepts:</strong> Node.js, Express, REST API, MongoDB</p>
