@@ -10,7 +10,7 @@ permalink: /projects/
 <hr>
 
 <h2>Project 1: Basic Logic Gates</h2>
-<img src="/assets/img/logic-gates.jpg" alt="" width = "400">
+<img src="{{ '/assets/img/logic-gates.jpg' | relative_url }}" alt="Project 1" width="400">
 <p>
   Constructing basic logic gates such as <strong>AND</strong>, <strong>OR</strong>, etc.
   This project helped me understand how digital logic works.
@@ -24,7 +24,7 @@ permalink: /projects/
 <hr>
 
 <h2>Project 2: Blog Website (Backend)</h2>
-<img src="/assets/img/blog-photo.png" alt="" width = "400">
+<img src="{{ '/assets/img/blog-photo.png' | relative_url }}" alt="Project 2" width="400">
 <p>Backend part of a blog website. (Repo link will be added.)</p>
 
 <p><strong>Tech/Concepts:</strong> Node.js, Express, REST API, MongoDB</p>

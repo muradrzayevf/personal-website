@@ -117,6 +117,9 @@ a:hover {
   .hero {
     grid-template-columns: 1fr;
   }
+  .footer{
+    margin: 0;
+  }
 }
 
 .hero h1 {
